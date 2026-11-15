@@ -1,0 +1,36 @@
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Uploaded images
+uploaded_images/*
+!uploaded_images/.gitkeep
+
+# Environment variables and secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
